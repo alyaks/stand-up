@@ -61,7 +61,19 @@ p figure {
 }
 
 fieldset {
-    padding: 0;
-    margin: 0;
-    border: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+input:focus {
+  outline: none;
+}
+
+select:focus {
+  outline: none;
+}
+
+select, input {
+  border: 1px solid transparent;
 }

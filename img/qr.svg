@@ -1,0 +1,11 @@
+<svg width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<defs>
+		<clipPath id="clip4_310">
+			<rect id="gg:qr" rx="-0.500000" width="23.000000" height="23.000000" transform="translate(0.500000 0.500000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="gg:qr" rx="-0.500000" width="23.000000" height="23.000000" transform="translate(0.500000 0.500000)" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip4_310)">
+		<path id="Vector" d="M9 3L3 3L3 9L5 9L5 5L9 5L9 3ZM3 21L3 15L5 15L5 19L9 19L9 21L3 21ZM15 3L15 5L19 5L19 9L21 9L21 3L15 3ZM19 15L21 15L21 21L15 21L15 19L19 19L19 15ZM7 7L11 7L11 11L7 11L7 7ZM7 13L11 13L11 17L7 17L7 13ZM17 7L13 7L13 11L17 11L17 7ZM13 13L17 13L17 17L13 17L13 13Z" fill="#1A1A1A" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
+</svg>
