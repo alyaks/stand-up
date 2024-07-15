@@ -10,7 +10,7 @@
   background-size: cover;
   background-position: center;
   color: #ffffff;
-  padding: 180px 296px;
+  padding: 180px 89px;
 }
 
 .event__title {
@@ -58,7 +58,6 @@
   top: 3px;
 }
 
-
 @media (max-width: 1024px) {
   .event {
     padding: 110px 89px;
@@ -73,7 +72,7 @@
     gap: 50px;
     margin-bottom: 45px;
   }
-  
+
   .event__info-item {
     font-size: 24px;
   }

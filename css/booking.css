@@ -3,7 +3,7 @@
   min-height: 100vh;
   display: flex;
   align-items: center;
-  border-color: #EBECF1;
+  border-color: #ebecf1;
   padding: 80px 0 96px;
 }
 
@@ -47,19 +47,19 @@
 }
 
 .booking__input:placeholder {
-  color: #BABABA;
+  color: #bababa;
 }
 
 .booking__input:hover {
-  background-color: #F9F9F9;
+  background-color: #f9f9f9;
 }
 
 .booking__input:focus {
-  border-color: #BCBCBC;
+  border-color: #bcbcbc;
 }
 
 .booking__input_valid {
-  border-color: #00992B;
+  border-color: #00992b;
 }
 
 .booking__input_invalid {
@@ -85,11 +85,8 @@
   margin-right: 8px;
   width: 100%;
   height: 44px;
-  font-size: 18px;
-  border-radius: 8px;
-  background-color: #fff;
-  padding: 0 16px;
 }
+
 .booking__select_comedian {
   max-width: 380px;
 }
@@ -136,7 +133,6 @@
 }
 
 @media (max-width: 768px) {
-
   .booking__input-group {
     flex-direction: column;
   }

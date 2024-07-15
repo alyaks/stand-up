@@ -74,6 +74,35 @@ select:focus {
   outline: none;
 }
 
-select, input {
+input {
   border: 1px solid transparent;
+}
+
+.ts-dropdown,
+.ts-control,
+.ts-control input {
+  font-size: 18px;
+  border-radius: 8px;
+  color: #1a1a1a;
+  border: none;
+  padding: 10px 16px 8px;
+}
+
+.dropdown-active .ts-control {
+  border-radius: 8px;
+}
+.ts-dropdown active {
+  background-color: transparent;
+}
+
+.ts-wrapper.single .ts-control {
+  background: #fff;
+}
+
+.ts-wrapper.single .ts-control::after {
+  border-color: #1a1a1a transparent transparent transparent;
+}
+
+.ts-wrapper.single.dropdown-active .ts-control::after {
+  border-color: transparent transparent #1a1a1a transparent;
 }
