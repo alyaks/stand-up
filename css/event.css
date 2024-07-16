@@ -11,6 +11,18 @@
   background-position: center;
   color: #ffffff;
   padding: 180px 89px;
+  transition:
+    opacity 0.5s,
+    visibility 0.5s;
+  opacity: 1;
+  visibility: visible;
+}
+
+.event__hidden {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  width: 100%;
 }
 
 .event__title {
@@ -34,6 +46,16 @@
   font-size: 80px;
   font-weight: 800;
   margin-right: 8px;
+}
+
+.event__button {
+  opacity: 1;
+  visibility: visible;
+}
+
+.event__button_hidden {
+  opacity: 0;
+  visibility: hidden;
 }
 
 .event__button-reserve {

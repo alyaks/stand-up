@@ -1,8 +1,6 @@
 import { Notification } from "./Notification.js";
 
 export const getComedians = async () => {
-  const notification = Notification.getInstance();
-
   try {
     const response = await fetch("http://localhost:8080/comedians");
     if (!response.ok) {
@@ -11,6 +9,33 @@ export const getComedians = async () => {
     return response.json();
   } catch (error) {
     console.log(`Trouble with fetch: ${error.message}`);
-    notification.show("Возникла ошибка сервера, попробуйте позже");
+    Notification.getInstance().show(
+      "Возникла ошибка сервера, попробуйте позже",
+    );
+  }
+};
+
+export const sendData = async (method, data, id) => {
+  try {
+    const response = await fetch(
+      `http://localhost:8080/clients${id ? `/${id}` : ""}`,
+      {
+        method,
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      },
+    );
+    if (!response.ok) {
+      throw new Error(`Error: ${response.status}`);
+    }
+    return true;
+  } catch (error) {
+    console.log(`Trouble with fetch: ${error.message}`);
+    Notification.getInstance().show(
+      "Возникла ошибка сервера, попробуйте позже",
+    );
+    return false;
   }
 };
