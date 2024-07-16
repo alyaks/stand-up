@@ -1,0 +1,11 @@
+<svg width="36.000000" height="36.000000" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<defs>
+		<clipPath id="clip16_299">
+			<rect id="iconamoon:check-bold" rx="-0.500000" width="35.000000" height="35.000000" transform="translate(0.500000 0.500000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="iconamoon:check-bold" rx="-0.500000" width="35.000000" height="35.000000" transform="translate(0.500000 0.500000)" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip16_299)">
+		<path id="Vector" d="M30 10.5L15 25.5L7.5 18" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="2.500000" stroke-linejoin="round" stroke-linecap="round"/>
+	</g>
+</svg>
