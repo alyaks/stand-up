@@ -8,22 +8,23 @@
   line-height: 1.2;
   border-radius: 16px;
   background: #bababa;
-    padding: 32px;
-    z-index: 1000;
-    opacity: 0;
-    transform: translateX(100%);
+  padding: 32px;
+  z-index: 1000;
+  opacity: 0;
+  transition: transform 0.3s ease, opacity 0.5s ease;
+  transform: translateX(100%);
 }
 
 .notification_show {
-    opacity: 1;
-    transform: translateX(0);
+  opacity: 1;
+  transform: translateX(0);
 }
 
 .notification_success {
-    background: #00992b url(../img/success.svg) right 32px center / 36px no-repeat;
-    padding-right: 76px;
+  background: #00992b url(../img/success.svg) right 32px center / 36px no-repeat;
+  padding-right: 76px;
 }
 
-.notification_error{
-    background-color: #900;
+.notification_error {
+  background-color: #900;
 }
