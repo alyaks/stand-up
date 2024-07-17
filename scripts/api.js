@@ -1,8 +1,10 @@
 import { Notification } from "./Notification.js";
 
+const API_URL = 'https://debonair-spiffy-tumbleweed.glitch.me/'
+
 export const getComedians = async () => {
   try {
-    const response = await fetch("http://localhost:8080/comedians");
+    const response = await fetch(`${API_URL}comedians`);
     if (!response.ok) {
       throw new Error(`Error: ${response.status}`);
     }
@@ -18,7 +20,7 @@ export const getComedians = async () => {
 export const sendData = async (method, data, id) => {
   try {
     const response = await fetch(
-      `http://localhost:8080/clients${id ? `/${id}` : ""}`,
+      `${API_URL}clients${id ? `/${id}` : ""}`,
       {
         method,
         headers: {
